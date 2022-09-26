@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Unplug UI Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img class="image" src="./img/neo.png" alt="pic">
+                <h5>unplug ui</h5>
+            </div>
+            <div>
+                <ul>
+                    <li><a class="eachnav" href="#">Home</a></li>
+                    <li><a class="eachnav"  href="#">Features</a></li>
+                    <li><a class="eachnav"  href="#">Portfolio</a></li>
+                    <li><a class="eachnav"  href="#">Blog</a></li>
+                    <li><a class="eachnav"  href="#">Pricing</a></li>
+                    <li><a class="button" href="#">Get Started Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+   <div class="para">
+    <h2>BASIC INFORMATIONS ABOUT HTML</h2>
+    <h4>SEMANTIC HTML</h4>
+    <p>
+        The HTML semantics refers to <b>the tags that provide meaning to an HTML page, rather than just presentation.</b> <br>
+        It makes HTML more comprehensible by better defining the different sections and layout of web pages.
+    </p>
+    <h4>INTERNAL STYLING</h4>
+        <h5>Internal styling is actually done by placing the stle element in the Head element but some have actually tried placing it in the body element and it worked. <br>WHY?</h5>
+        <p>
+            <li class="answer">
+            <li>This is because it's also part of the HTML component/part.</li>
+            <li>The main point of putting the CSS in the heade is to eliminate the latency in the network, i.e there is no network request for the CSS- so if the CSSOM building starts immediately.</li>
+            <li>Also, adhering to web standards by using a style sheet makes for a better website  and when you need help because things on your page arn't exactly that way you want them,
+        placing your CSS in the head as opposed to the body makes for much better troubleshooting by yourself and for anyone you ask for help from.</li>
+            <li>Putting the style in body element also works but when shown in the browser, it lets the CSS declare before the body starts and it means your style has loaded already.</li>
+            <li>It loads very quickly that the users see something appear on their screen(e.g background colors).</li>
+            <li>If not, users see blank screen for some time before the CSS reaches the user.</li>
+    </p>
+    </div>
+    <div>
+        <h4 class="bk"><a class="back" href="index.html">Back</a></h4>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: dodgerblue;
+}
+div{
+    width: 50%;
+    height: 50vh;
+    /* border: 2px solid red; */
+    border-radius: 3px;
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px;
+    gap: 20px;
+}
+h2{
+    color: dodgerblue;
+    padding-top: 50px;
+    padding-right: 10px;
+}
+input{
+    width:250px;
+    height: 50px;
+}
+#user{
+    padding-left: 10px;
+    font-weight: bold;
+}
+#pass{
+    padding-left: 10px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    border: 1px solid dodgerblue;
+    border-width: 10px 105px;
+    color: white;
+    background-color: dodgerblue;
+    margin-bottom:  10px;
+}
+a:hover{
+    /* border: 1px solid black; */
+    /* background-color: rgba(15, 10, 255, 0.575); */
+    color: black;
+    font-weight: bold;
+}
